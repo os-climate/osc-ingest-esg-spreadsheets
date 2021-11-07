@@ -36,7 +36,7 @@ When rendered as a spreadsheet, the structure of CSR reports seem to follow a so
 
 Additionally, many spreadsheets have Comments, Notes, and other metadata, such as references to SASB, GRI, TCFD, URD 2020 (Amundi) labeling and conventions.
 
-Some reports put all information on a single worksheet.  Some separate the worksheets by Topic or Sub-Topic.
+Some reports put all information on a single worksheet.  Some separate the worksheets by Topic or Sub-Topic.  But regardless of how the structures are formatted and presented, it is important to remember that one of our over-arching goals is **_to collect data and its most granular level_**.  To do that we need to collect the data as found and then transform it later.  The PUDL people refer to this as EtLT (see: https://github.com/catalyst-cooperative/pudl/issues/1315; as opposed to ETL, which envisions a heavyweight transformation step between Extract and Load).
 
 ## Contextual Parsing
 
