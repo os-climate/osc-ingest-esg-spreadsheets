@@ -121,6 +121,8 @@ Similarly, we want to normalize numbers and units to *a* set of standards.  So w
 
 We also collect notes annotations (where we can--openpyxl does not handle superscript numbers at all well), as well as other column data that's destined to be metadata (such as comments, linkages to SASB, GRI, etc.)
 
+This phase is complete when the variables map to the topics/categories and we can produce a single Tidy dataframe of the form: Topic:Category:Segmentation:Variable:Unit:Value:Year:[Notes and Other Metadata Columns].
+
 ### Linkage to Data Commons
 
 Once we have a clean version of "As-found" data, we need to map that to more regular factors that make it searchable in the Data Commons.  This is where we regularlize the many ways of describing Scope 1, Scope 2, and Scope 3 emissions, as well as their various ways of combining/splitting their sub-components.  This is also the step where linkage to other data frameworks (such as SASB, GRI, etc) are made.
