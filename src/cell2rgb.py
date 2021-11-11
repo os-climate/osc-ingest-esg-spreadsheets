@@ -78,7 +78,7 @@ def theme_and_tint_to_rgb(wb, theme, tint):
     h, l, s = rgb_to_ms_hls(rgb)
     return rgb_to_hex(ms_hls_to_rgb(h, tint_luminance(tint, l), s))
 
-def cell2rgb(cell):
+def cell2rgb(wb, cell):
     if cell.fill == None:
         return None
     if cell.fill.fgColor.type == 'rgb':
@@ -88,7 +88,7 @@ def cell2rgb(cell):
         tint = cell.fill.start_color.tint
         return theme_and_tint_to_rgb(wb, theme, tint)
 
-def cell2cat_color(cell, color_dict):
+def cell2cat_color(wb, cell, color_dict):
     if cell.fill.fgColor.type == 'rgb':
         cat_color = format(cell.fill.fgColor.rgb)
     else:
