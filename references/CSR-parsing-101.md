@@ -67,7 +67,7 @@ In other cases, variables may link explicitly to Topics and Categories:
         Direct GHG emissions - Waste - Subcontractors' fuel emissions
         Direct GHG emissions - Waste - Other emissions (Primary energies, excluding treatment)
 
-**Thus, one of the major tasks of parsing these spreadsheets is to collect the contextual information that comes from top-down (Topics->Categories) and connect it with the Variable information to produce consistent, categorizable, unitized datapoints.**  
+**Thus, one of the major tasks of parsing these spreadsheets is to collect the contextual information that comes from top-down (Topics->Categories) and connect it with the Variable information to produce consistent, categorizable, unitized datapoints.**
 
 ## Processing Phases
 
@@ -84,13 +84,13 @@ There are sevreal processing phases from the first reading of a CSR to the final
 
 It is complicated enough to write a script to process a wide range of ways to all express roughly the same thing.  It's impossible when a report is inconsistent with its own rules.  If the processing script is failing because a rule has not been properly defined, and if the rule is relatively simple and general, the script should be enhanced to implement the rule.  But CSR reports are compiled by people, and people can make mistakes.  It is far preferable to correct mistakes at the source than to try to create complex rules that adapt to errors but do not also upset other, adjacent rules.  Consider these numbers from a report:
 
-* 2017	0,378 TJ / thousand tons of iron ore equivalent
-* 2018	0,352 TJ / thousand tons of iron ore equivalent
-* 2017	4.183 TJ of energy saved/avoided as a result of conservation or efficiency improvement initiatives.
-* 2018	256,7 TJ of energy saved/avoided as a result of conservation or efficiency improvement initiatives.* 
-* **2017	1,423 million m³ of water recycled and reused (82%)**
-* 2018	953 million m³ of water recycled and reused (83%)
-* 2017	"In 2017, our total operational areas were distributed as follows:
+* 2017  0,378 TJ / thousand tons of iron ore equivalent
+* 2018  0,352 TJ / thousand tons of iron ore equivalent
+* 2017  4.183 TJ of energy saved/avoided as a result of conservation or efficiency improvement initiatives.
+* 2018  256,7 TJ of energy saved/avoided as a result of conservation or efficiency improvement initiatives.*
+* **2017    1,423 million m³ of water recycled and reused (82%)**
+* 2018  953 million m³ of water recycled and reused (83%)
+* 2017  "In 2017, our total operational areas were distributed as follows:
     Total impacted area: 1,504.33 km²
     Total impacted area in Wilderness: 910.96 km²
     Total area impacted in Hotspots: 413.04 km²
@@ -98,12 +98,12 @@ It is complicated enough to write a script to process a wide range of ways to al
     Impacted areas adjacent to protected areas: 468.7 km²
     Impacted areas in priority areas for conservation outside protected areas: 126.7 km²
     Impacted areas adjacent to priority areas for conservation outside protected areas: 190.5 km²"
-* 2019	"In 2019, there were:
+* 2019  "In 2019, there were:
     - 54 operational units analyzed;
     - 46 (85.2%) of the areas require Biodiversity Management Plan;
     - 49 in total have already been implemented (including areas with more than one plan);
     - In only one unit, the required plan is still to be implemented."
-* 2020	"In 2020, there were:
+* 2020  "In 2020, there were:
     - 61 operational units analyzed;
     - **51 (83.6.2%) of the areas require a Biodiversity Management Plan;**
     - 58 in total have already been implemented (including areas with more than one plan);
